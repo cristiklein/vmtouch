@@ -13,4 +13,4 @@ RUN cd /usr/share/ \
 
 VOLUME /data
 ENTRYPOINT ["/usr/local/bin/vmtouch"]
-CMD ["-l /data"]
+CMD ["-l", "/data"]
